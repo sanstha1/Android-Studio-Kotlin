@@ -21,6 +21,7 @@ class TaskActivity : AppCompatActivity() {
         button = findViewById(R.id.btnSignup)
 
         //Change
+        //change 2
 
         ViewCompat.setOnApplyWindowInsetsListener(findViewById(R.id.main)) { v, insets ->
             val systemBars = insets.getInsets(WindowInsetsCompat.Type.systemBars())
